@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../font/vazir/Vazir.eot");
+    src: url("../font/vazir/Vazir.eot") format("embedded-type"),
+      url("../font/vazir/Vazir.ttf") format("truetype"),
+      url("../font/vazir/Vazir.woff") format("woff"),
+      url("../font/vazir/Vazir.woff2") format("woff2");
+  }
+
+  *{
+    font-family: 'vazir';
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    box-sizing: border-box;
+  }
+
+  ul,li{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #logo{
+    width: 90px;
+  }
+
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  header div nav ul{
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  header div nav ul li{
+    margin-left: 40px;
+  }
+
+  header div nav ul li a:hover , header div .auth a:hover{
+    color: crimson;
+  }
+
+  header{
+    background-color: #212121;
+   
+  }
+
+  header div .auth{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  header div .auth a{
+    margin-left: 20px;
+  }
+
+  .home-content{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,83,221,1) 0%, rgba(2,178,232,1) 56%, rgba(0,212,255,1) 100%);
+  }
+
+  .home-content .baner .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home-content .baner .item .warp{
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: black ;
+    width: 18% ;
+    margin: 25px 0px;
+    text-align: center;
+  }
+
+  .home-content .baner .item .warp:hover{
+    opacity: 50%;
+    cursor: pointer;
+  }
+
+  .home-content .baner .item .warp img{
+    width: 50%;
+    padding: 10px;
+  }
+
+  .home-content .baner .title{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .home-image .img-background{
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+  }
+
+  .home-image .img{
+    position: absolute;
+  }
